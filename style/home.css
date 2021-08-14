@@ -1,0 +1,392 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+#front, #back { 
+    position: absolute; width: 100vw; 
+}
+#back { 
+    min-height: 100vh; z-index: 1; 
+}
+#front { 
+    background: rgba(20, 39, 74, 0.5);
+    height: 100vh;
+    z-index: 2; 
+} 
+#back { 
+    background: url('/img/home/home.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+#header-content{
+    position: relative;
+    width: 1497.79px;
+    height: 1042px;
+    margin: 0 auto;
+    z-index: 3;
+}
+.nav-bar{   
+    position: relative;
+}
+.tag{
+    position: relative;
+    width: 256px;
+    height: 149px;
+    background: #E0B973;
+    border-radius: 0 0 50px 50px;
+}
+.txt .luxury{
+    font-family: 'EB Garamond', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+
+    letter-spacing: 0.15em;
+    color: #14274A;
+}
+.txt .hotel{
+    font-family: 'EB Garamond', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+
+    letter-spacing: 0.6em;
+    color: #14274A;
+}
+.txt{
+    position: absolute;
+    text-align: center;
+    top: 23%;
+    left: 13%;
+}
+/* nav bar */
+nav{
+    position: absolute;
+    text-align: right;
+    width: 1000px;
+    left: 500px;
+    top: 59px;
+}
+nav a{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 120px;
+}
+a:hover{
+    color: #d4d4d4;
+}
+.active {
+    font-weight: 600;
+    border-bottom: 2px solid white;
+    padding: 0 5px;
+}
+/* WELCOME */
+#welcome{
+    position: absolute;
+    width: 698.24px;
+    height: 328px;
+    top: 300px;
+}
+.welcome-txt{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    color: #FFFFFF;
+}
+.luxury-txt{
+    font-family: 'EB Garamond', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 154px;
+    line-height: 185px;
+    letter-spacing: 0.07em;
+    margin: -30px 0;
+    color: #FFFFFF;
+}
+.hotel-txt{
+    font-family: 'EB Garamond', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 0.4em;
+    color: #FFFFFF;
+}
+.paragraph-txt{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+/* BOOKING NOW */
+#booking{
+    position: absolute;
+    left: 43.02%;
+    right: 43.02%;
+    top: 65%;
+    bottom: 73.6%;
+}
+#booking a{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    background-color: #E0B973;
+    width: 300px;
+    padding: 30px;
+    border-radius: 10px;
+}
+/* scroll */
+#scrolldown{
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 50%;
+    right: 43.02%;
+    top: 80%;
+   
+}
+#scrolldown a{
+    text-decoration: none;
+    color: white;
+}
+#scrolldown a:hover{
+    color: #d4d4d4;
+}
+#scrolldown p{
+    font-family: 'Montserrat', sans-serif;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    margin-bottom: 20px;
+}
+/* main
+-------------------------------------------------------------------- */
+main{
+    position: relative;
+    width: 1497.79px;
+    height: auto;
+    margin: 0 auto;
+}
+main .title{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    color: #14274A;
+    margin-bottom: 100px;
+}
+/* luxury refined */
+.Content{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 100px;
+
+}
+.Content .text{
+    width: 750px;
+    margin-right: 100px;
+    padding-left: 60px;
+    border-left: 2px solid black;
+}
+.Content .text h6{
+    font-family: 'EB Garamond', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 0.02em;
+    color: #14274A;
+}
+.Content .text .paragraph-txt{
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 40px;
+    color: #14274A;
+    margin: 40px 0;
+    width: 600px;
+}
+.Content .text  a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em; 
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    background-color: #E0B973;
+    padding: 18px 50px;
+    border-radius: 10px;
+}
+img{
+    width: 50%;
+}
+/* comment */
+.comment{
+    width: 100%;
+    text-align: center;
+}
+.comment h3{
+    font-family: 'EB Garamond', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 72px;
+    color: #14274A;
+}
+.comment .content{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    color: #14274A;
+    margin: 10px 0;
+}
+.comment .name{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: #14274A;
+    margin: 10px 0;
+}
+.next-pre a{
+    color:#E0B973;
+    margin: 10px 0;
+}
+.next-pre .fas{
+    margin: 0 10px;
+}
+/* footer
+----------------------------------------------------------------- */
+
+footer{
+    margin-top: 100px;
+    height: 30vh;
+    background-color: #14274A;
+    position: relative;
+}
+.rectangle{
+    position: absolute;
+    background-color: #14274A;
+    width: 100px;
+    height: 100px;
+    rotate: 45deg;
+    top: -35px;
+    left: 47.5%;
+}
+footer .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1497.79px;
+    margin: 0 auto;
+    z-index: 3;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-items: center;
+    gap: 50px;
+}
+.luxuty-hotels{
+    margin-bottom: 20px;
+    text-align: center;
+    float: left; 		
+}
+.address{
+    clear: both;		
+}
+.luxuty-hotels .luxury{
+    font-family: 'EB Garamond', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.15em;
+}
+.luxuty-hotels .hotel{
+    font-family: 'EB Garamond', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: 0.6em;
+}
+
+.column ul{
+    list-style: none;
+}
+.social li{
+    display: grid;
+    grid-template-columns: 10px 20px;
+    gap: 20px;
+}
+li{
+    margin-bottom: 20px;
+}
+li a{
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F7F7F7;
+}
+.sub{
+    margin-bottom: 30px;
+}
+input[type=text]{
+   background-color: #14274A;
+   border: 2px solid #E0B973;
+   border-radius: 10px 0 0 10px;
+   width: 250px;
+   padding: 12px;
+   color: white;
+    
+}
+button{
+    background-color: #E0B973;
+    border: none;
+    padding: 14px;
+    width: 60px;
+    border-radius: 0 10px 10px 0;
+}

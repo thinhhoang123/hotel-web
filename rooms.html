@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/rooms.css">
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <div id="back"></div> 
+        <div id="front"></div>
+        <div id="header-content">
+
+            <div class="nav-bar">
+
+                <div class="tag">
+                    <div class="txt">
+                        <p class="luxury">LUXURY</p>
+                        <p class="hotel">HOTELS</p>
+                    </div>
+                </div>
+
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="facilities.html">Facilities</a>
+                    <a class="active" href="rooms.html">Rooms</a>
+                    <a href="contact.html">Contact-us</a>
+                </nav>
+               
+            </div>
+
+            <div id="welcome">
+                <p class="welcome-txt">WELCOME TO</p>
+                <p class="luxury-txt">LUXURY</p>
+                <p class="hotel-txt">HOTELS</p>
+                <p class="paragraph-txt">Book your stay and enjoy Luxury <br>
+                redefined at the most affordable rates.</p>
+            </div>
+
+            <div id="booking">
+                <a href="#">
+                    <i class="fas fa-calendar-alt"></i>
+                    <p>BOOKING NOW</p>
+                </a>
+            </div>
+
+            <div id="scrolldown">
+                <a href="#main">
+                    <p>Scroll</p>
+                    <i class="fas fa-chevron-circle-down fa-3x"></i>
+                </a>
+            </div>
+
+        </div>
+    </header>
+    <main id="main">
+        
+        <p class="title-head">ROOMS AND RATES</p>
+        <p class="title">Each of our bright, light-flooded rooms come with everything you could possibly need for a comfortable stay. And yes, 
+            comfort isn’t our only objective, we also value good design, sleek contemporary furnishing complemented 
+            by the rich tones of nature’s palette as visible from our rooms’ sea-view windows and terraces. 
+        </p>
+       
+        <div class="Content">
+
+            <div class="rooms">
+
+                <div class="indicators">
+                    <div class="dot" onclick="currentSlide(1)"></div>
+                    <div class="dot" onclick="currentSlide(2)"></div>
+                    <div class="dot" onclick="currentSlide(3)"></div>
+                    <div class="dot" onclick="currentSlide(4)"></div>
+                </div>
+
+                <img class="room-img" src="/img/room/duplex/deluxe-king-bed-room-cottage-at-pullman-danang-beach-resort-vietnam-5-star-hotel3.jpg"  >
+                <img class="room-img" src="/img/room/duplex/deluxe-king-bath-room-cottage-at-pullman-danang-beach-resort-vietnam-5-star-hotel.jpg" alt="" >
+                <img class="room-img" src="/img/room/duplex/deluxe-king-bed-room-cottage-at-pullman-danang-beach-resort-vietnam-5-star-hotel-room.jpg" >
+                <img class="room-img" src="/img/room/duplex/deluxe-king-bed-room-cottage-at-pullman-danang-beach-resort-vietnam-5-star-hotel2.jpg"  >
+            
+                <figcaption>DELUXE ROOM</figcaption>
+                <div class="price">
+                    <a href="#">
+                        <i class="fas fa-plus-circle"></i> 
+                        VIEW ROOM DETAILS
+                    </a>
+                    <p>$147 Avg/night</p>
+                </div>
+            </div>
+
+            <div class="rooms">
+                <div class="indicators">
+                    <div class="dot1" onclick="currentSlide1(1)"></div>
+                    <div class="dot1" onclick="currentSlide1(2)"></div>
+                    <div class="dot1" onclick="currentSlide1(3)"></div>
+                </div>
+                <img class="room-img1" src="/img/room/junior/JuniorSuite_Overview-Bedroom-living-space.jpg" alt="">
+                <img class="room-img1" src="/img/room/junior/JuniorSuite_Bathroom-with-jacuzzi-space-and-view-1024x683.jpg" alt="">
+                <img class="room-img1" src="/img/room/junior//JuniorSuite_View-1024x683.jpg" alt="">
+                
+                <figcaption>JUNIOR SUITE</figcaption>
+                <div class="price">
+                    <a href="#">
+                        <i class="fas fa-plus-circle"></i> 
+                        VIEW ROOM DETAILS
+                    </a>
+                    <p>$200 Avg/night</p>
+                </div>
+            </div>
+
+            <div class="rooms">
+                <div class="indicators">
+                    <div class="dot2" onclick="currentSlide2(1)"></div>
+                    <div class="dot2" onclick="currentSlide2(2)"></div>
+                    <div class="dot2" onclick="currentSlide2(3)"></div>   
+                </div>
+                <img class="room-img2" src="/img/room/penhouse/Pullman-Penthouse-Angle02-Pullman-Danang-Beach-Resort-Central-Vietnam-5-star-beach-resort.jpg" alt="">
+                <img class="room-img2" src="/img/room/penhouse/Pullman-Penthouse-Angle03-Pullman-Danang-Beach-Resort-Central-Vietnam-5-star-beach-resort-1024x683.jpg" alt="">
+                <img class="room-img2" src="/img/room/penhouse/Pullman-Penthouse-Angle04-Pullman-Danang-Beach-Resort-Central-Vietnam-5-star-beach-resort-1024x683.jpg" alt="">
+                <figcaption>PENHOUSE SUITE</figcaption>
+                <div class="price">
+                    <a href="#">
+                        <i class="fas fa-plus-circle"></i> 
+                        VIEW ROOM DETAILS
+                    </a>
+                    <p>$315 Avg/night</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="comment">
+            <h3>Testimonials</h3>
+            <p class="content">"Calm, Serene, Retro – What a way to relax and enjoy"</p>
+            <p class="name"> Mr. and Mrs. Baxter, UK</p>
+
+            <div class="next-pre">
+                <a href="#"><i class="fas fa-chevron-circle-left fa-2x"></i></a>
+                <a href="#"><i class="fas fa-chevron-circle-right fa-2x"></i></a>
+            </div>
+        </div>
+       
+    </main>
+    <footer>
+        <div class="rectangle"></div>
+
+        <div class="content">
+
+            <div class="column" style="color:white">
+                <div class="luxuty-hotels">
+                    <p class="luxury">LUXURY</p> 
+                    <p class="hotel">HOTELS</p>
+                </div>
+                <div class="address">
+                    <p>
+                        497 Evergreen Rd. Roseville, CA 95673 <br>
+                        +44 345 678 903 <br>
+                        luxury_hotels@gmail.com 
+                    </p>
+                </div>
+            </div>
+
+            <div class="column" style="color:white">
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Terms & Condition</a></li>
+                </ul>
+            </div>
+
+            <div class="column" style="color:white">
+                <ul class="social">
+                    <li>
+                        <i class="fab fa-facebook-f"></i>
+                        <a href="#">Facebook</a>
+                    </li>
+                    <li><i class="fab fa-twitter"></i>
+                        <a href="#">Twitter</a>
+                    </li>
+                    <li>
+                        <i class="fab fa-instagram"></i>
+                        <a href="#">Instagram</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="column" style="color:white">
+                <p class="sub">Subscribe to our newsletter</p>
+                <input type="text" placeholder="Email Address"><button>OK</button>
+            </div>
+
+        </div>
+    </footer>
+
+    <script>
+        var slideIndex  = 1;
+
+        var slides = document.querySelectorAll(".room-img");
+        var slides1 = document.querySelectorAll(".room-img1");
+        var slides2 = document.querySelectorAll(".room-img2");
+
+        var dots = document.querySelectorAll(".dot");
+        var dots1 = document.querySelectorAll(".dot1");
+        var dots2 = document.querySelectorAll(".dot2");
+
+        showSlides(slideIndex);
+        showSlides1(slideIndex);
+        showSlides2(slideIndex);
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+        function currentSlide1(n){
+            showSlides1(slideIndex = n);
+        }
+        function currentSlide2(n){
+            showSlides2(slideIndex = n);
+        }
+
+        function showSlides(n){
+            for (var i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            for (var i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" img-choose", "");
+            }
+            slides[slideIndex-1].style.display = "inline-block";  
+            dots[slideIndex-1].className += " img-choose";
+        }
+
+        function showSlides1(n){
+            for (var i = 0; i < slides1.length; i++) {
+                slides1[i].style.display = "none";  
+            }
+            for (var i = 0; i < dots1.length; i++) {
+                dots1[i].className = dots[i].className.replace(" img-choose", "");
+            }
+            slides1[slideIndex-1].style.display = "inline-block";  
+            dots1[slideIndex-1].className += " img-choose";
+        }
+
+        function showSlides2(n){
+            for (var i = 0; i < slides2.length; i++) {
+                slides2[i].style.display = "none";  
+            }
+            for (var i = 0; i < dots2.length; i++) {
+                dots2[i].className = dots[i].className.replace(" img-choose", "");
+            }
+            slides2[slideIndex-1].style.display = "inline-block";  
+            dots2[slideIndex-1].className += " img-choose";
+        }
+
+        const sr = ScrollReveal({
+            origin: 'top',
+            distance: '80px',
+            duration: 1000,
+            reset: true
+        });
+        sr.reveal('.rooms',{delay: 200}); 
+    </script>
+    
+</body>
+</html>

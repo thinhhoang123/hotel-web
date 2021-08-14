@@ -1,0 +1,277 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #14274A;
+}
+html {
+    scroll-behavior: smooth;
+}
+#header-content{
+    position: relative;
+    width: 1497.79px;
+    height: 50vh;
+    margin: 0 auto;
+    z-index: 3;
+
+}
+.nav-bar{   
+    position: relative;
+}
+.tag{
+    position: relative;
+    width: 256px;
+    height: 149px;
+    background: #E0B973;
+    border-radius: 0 0 50px 50px;
+}
+.txt .luxury{
+    font-family: 'EB Garamond', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+
+    letter-spacing: 0.15em;
+    color: #14274A;
+}
+.txt .hotel{
+    font-family: 'EB Garamond', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+
+    letter-spacing: 0.6em;
+    color: #14274A;
+}
+.txt{
+    position: absolute;
+    text-align: center;
+    top: 23%;
+    left: 13%;
+}
+/* nav bar */
+nav{
+    position: absolute;
+    text-align: right;
+    width: 1000px;
+    left: 500px;
+    top: 59px;
+}
+nav a{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 120px;
+}
+a:hover{
+    color: #d4d4d4;
+}
+.active {
+    font-weight: 600;
+    border-bottom: 2px solid white;
+    padding: 0 5px;
+}
+/* contact*/
+.contactus{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 98px;
+
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+
+/* main
+-------------------------------------------------------------------- */
+main{
+    position: relative;
+    width: 1497.79px;
+    height: auto;
+    margin: 0 auto;
+}
+main .title{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: #14274A;
+    text-align: left;
+    margin-bottom: 100px;
+}
+main .title-head{
+    font-family: 'EB Garamond', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #14274A;
+    margin-top: 300px;
+    text-align: left;
+}
+.content1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+/* conten */
+.address-content p,a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    color: #14274A;
+}
+.form{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #14274A;
+}
+#name{
+    width: 400px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+#email{
+    width: 400px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+#mess{
+    width: 400px;
+    height: 100px;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+input[type=submit]{
+    background-color: #E0B973;
+    border: none;
+    float: right;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+/* footer
+----------------------------------------------------------------- */
+
+footer{
+    margin-top: 100px;
+    height: 30vh;
+    background-color: #14274A;
+    position: relative;
+}
+.rectangle{
+    position: absolute;
+    background-color: #14274A;
+    width: 100px;
+    height: 100px;
+    rotate: 45deg;
+    top: -35px;
+    left: 47.5%;
+}
+footer .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1497.79px;
+    margin: 0 auto;
+    z-index: 3;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-items: center;
+    gap: 50px;
+}
+.luxuty-hotels{
+    margin-bottom: 20px;
+    text-align: center;
+    float: left; 		
+}
+.address{
+    clear: both;		
+}
+.luxuty-hotels .luxury{
+    font-family: 'EB Garamond', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.15em;
+}
+.luxuty-hotels .hotel{
+    font-family: 'EB Garamond', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: 0.6em;
+}
+
+.column ul{
+    list-style: none;
+}
+.social li{
+    display: grid;
+    grid-template-columns: 10px 20px;
+    gap: 20px;
+}
+li{
+    margin-bottom: 20px;
+}
+li a{
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F7F7F7;
+}
+.sub{
+    margin-bottom: 30px;
+}
+#sub{
+   background-color: #14274A;
+   border: 2px solid #E0B973;
+   border-radius: 10px 0 0 10px;
+   width: 250px;
+   padding: 12px;
+   color: white;
+    
+}
+button{
+    background-color: #E0B973;
+    border: none;
+    padding: 14px;
+    width: 60px;
+    border-radius: 0 10px 10px 0;
+}
