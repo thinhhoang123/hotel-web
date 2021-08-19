@@ -10,11 +10,11 @@ html {
     position: absolute; width: 100vw; 
 }
 #back { 
-    min-height: 100vh; z-index: 1; 
+    min-height: 1000px; z-index: 1; 
 }
 #front { 
     background: rgba(20, 39, 74, 0.5);
-    height: 100vh;
+    height: 1000px;
     z-index: 2; 
 } 
 #back { 
@@ -23,7 +23,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100vh;
+    height: 1000px;
 }
 #header-content{
     position: relative;
